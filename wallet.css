@@ -18,12 +18,12 @@ h3{
 }
 .cool{
 	visibility: hidden;
-	height: 150px;
-	width: 500px;
+	height: 100px;
+	width: 200px;
 }
 .imagen{
-	height: 300px;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 }
 #solo{
 	width: 125px;
@@ -32,4 +32,10 @@ h3{
 .orbit{
 	width: 1000px;
 	height: 700px; 
+}
+h2{
+	font-size: 75px;
+	color: #EDA23E;
+	position: relative;
+	margin-left: 175px; 
 }
