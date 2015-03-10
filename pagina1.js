@@ -1,5 +1,5 @@
 /* I did all my css in here*/
-$(".par").css("font-size","50px").css("color", "blue");
+/*$(".par").css("font-size","50px").css("color", "blue");
 $(".head").css("color","green").css("font-size","200px").css("text-align","center");
 $(".yo").css("color","red").css("font-size","30px");
 $(".pregunta").css("color","purple").css("font-size","100px").css("text-align","center");
@@ -11,4 +11,11 @@ $("#solo").click(function(){
 });
 $("#yolo").dblclick(function(){
 	$(".swag").text("Holiiiiiiiiiiiis");
-});
+});*/
+$(".imagen").hover(
+	function(){
+		$(".cool").css("visibility","visible");
+	}, function(){
+		$(".cool").css("visibility","hidden");
+	}
+);

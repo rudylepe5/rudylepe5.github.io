@@ -1,6 +1,20 @@
+body{
+	background-color: #F2CB67;
+}
 .yolo{
 	font-size: 10px;
 }
 p{
 	font-size: 20px;
+}
+h1{
+	color: #A82221;
+	font-size: 125px;
+}
+h3{
+	font-size: 40px;
+	color: #DB5E31;
+}
+.cool{
+	visibility: hidden;
 }
