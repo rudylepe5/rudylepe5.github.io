@@ -1,5 +1,6 @@
 body{
 	background-color: #F2CB67;
+	font-family: Lato;
 }
 .yolo{
 	font-size: 10px;
@@ -17,6 +18,12 @@ h3{
 }
 .cool{
 	visibility: hidden;
+	height: 150px;
+	width: 500px;
+}
+.imagen{
+	height: 300px;
+	width: 300px;
 }
 #solo{
 	width: 125px;
