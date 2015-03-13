@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
+
 body{
 	background-color: #F2CB67;
 	font-family: Lato;
@@ -42,18 +43,12 @@ h2{
 }
 #footer{
 	width:100%;
-	height:80px;
-	position:relative;
-	bottom:0;
-	left:0;
-	background:#BFB840;
+	height:50px;
+	background:black;
+	color: white;
 }
 .button{
-	background:#BFB840;
-	color: black;
+	background: black;
+	color: white;
 	font-family: Lato;
-}
-#video{
-	width: 970px;
-	height: 600px;
 }

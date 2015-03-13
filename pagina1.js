@@ -6,25 +6,17 @@ $(".imagen").hover(
 		$(".cool").css("visibility","hidden");
 	}
 );
+$(document).ready(function(){ 
 
-$("#uno").click(
-		$("#video");
-);
+	var n = $(document).width();
 
-$("#dos").click(
-	function(){
-		$(".example-orbit");
+	if (n > 500) {
+		$("#video").css("width","970px").css("height","600px");
+		$(body).css("background-color","pink");
+	} 
+	else {
+		$("#video").css("width","100px").css("height","100px");
 	}
-);
 
-$("#tres").click(
-	function(){
-		$("#historia");
-	}
-);
+});
 
-$("#cuatro").click(
-	function(){
-		$(".imagen");
-	}
-);
