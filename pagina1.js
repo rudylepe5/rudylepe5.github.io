@@ -6,3 +6,25 @@ $(".imagen").hover(
 		$(".cool").css("visibility","hidden");
 	}
 );
+
+$("#uno").click(
+		$("#video");
+);
+
+$("#dos").click(
+	function(){
+		$(".example-orbit");
+	}
+);
+
+$("#tres").click(
+	function(){
+		$("#historia");
+	}
+);
+
+$("#cuatro").click(
+	function(){
+		$(".imagen");
+	}
+);
